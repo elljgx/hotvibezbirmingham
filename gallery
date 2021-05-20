@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOT VIBEZ BIRMINGHAM</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- design -->
+<style>
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family:  "Century gothic", sans serif;
+}
+
+* { 
+	box-sizing: border-box;
+}
+
+.bg-image {
+	height:200%;
+	
+	background-postion: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img1 { background-image: url("romanticvibez.jpg"); }
+.img2 { background-image: url("35birthday.jpg"); }
+.img3 { background-image: url("tropicalvibez.jpg"); }
+.img4 { background-image: url("9birthday.jpg"); }
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: normal;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 50;
+  color: #696969;
+  }
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 50;
+	color: #696969;
+	}
+	
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #C0C0C0;
+}
+
+li {
+   display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left:160px;
+}
+
+li a:hover {
+	background-color: #696969;
+
+</style>
+</head>
+
+<body>
+<h1>HOT VIBEZ BIRMINGHAM</h1>
+<div class ="topnav">
+		<ul id="mainMenu">
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="Aboutus.html">About Us</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="feedback.html">Price List</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+
+<div class="bg-text">HOT VIBEZ</div>
+
+</body>
+</html> 
