@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOT VIBEZ BIRMINGHAM</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- design --> 
+<style>
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 50;
+  color: #696969;
+  }
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 50;
+	color: #696969;
+	}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family:  "Century gothic", sans serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #C0C0C0;
+}
+
+li {
+   display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left:160px;
+}
+
+li a:hover {
+	background-color: #696969;
+
+</style>
+</head>
+
+<body>
+<h1>HOT VIBEZ BIRMINGHAM</h1>
+<div class ="topnav">
+		<ul id="mainMenu">
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="Aboutus.html">About Us</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="feedback.html">Price List</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div>
+	
+<h2>About us </h2>
+<img src="firstday.jpg" style="width:400px;height:500px;">
+<p> Hey! Our names are Ellie and Charlie and we are the founders of Hot Vibez. We have been friends for over 10 years and we are finally putting our passion for events to good use!</p>
+<p1> Our hot tubs are available for hire every day of the week for as little as £50 a night! Check out the rest of our website to see our price list and what our set ups are like.
+
+</body>
+</html> 
